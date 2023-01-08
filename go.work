@@ -1,3 +1,6 @@
 go 1.20
 
-use ./gosimpleserver
+use (
+	./gocrudapp
+	./gosimpleserver
+)
